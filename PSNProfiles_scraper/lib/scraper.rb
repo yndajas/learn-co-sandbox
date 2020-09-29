@@ -21,7 +21,7 @@ class Scraper
 
     stats_flex_data.delete_at(5) # delete (unwanted) profile views count
 
-    stats_flex_data_keys = [:games_played, :completed_games, :completion_rate, :unearned_trophies, :trophies_per_day, :world_rank, :Country_rank]
+    stats_flex_data_keys = [:games_played, :completed_games, :completion_rate, :unearned_trophies, :trophies_per_day, :world_rank, :country_rank]
     
     stats_flex_data.each_with_index do |stat, i|
       player[stats_flex_data_keys[i]] = stat
