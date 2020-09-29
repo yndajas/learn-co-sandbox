@@ -1,5 +1,9 @@
 #!/usr/bin/env ruby
 
+require 'rubygems'
+require 'bundler/setup'
+require 'nokogiri'
+
 require_relative "../lib/command_line_interface.rb"
 
 CommandLineInterface.new.run

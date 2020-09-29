@@ -1,11 +1,7 @@
-require 'nokogiri'
-require 'open-uri'
-require 'pry'
-
 class Scraper
+  BASE_PATH = "https://psnprofiles.com/"
 
   def self.scrape_profile_page(psn_id)
-    BASE_PATH = "https://psnprofiles.com/"
     
     profile_data = Nokogiri::HTML(open(BASE_PATH + psn_id))
     
