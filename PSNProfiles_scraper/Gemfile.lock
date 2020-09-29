@@ -15,7 +15,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  nokogiri (= 1.10.8)
+  nokogiri
   pry
   require_all
 
