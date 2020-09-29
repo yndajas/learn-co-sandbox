@@ -9,4 +9,3 @@ module Concerns
 end
 
 require_all 'lib'
-

@@ -4,6 +4,6 @@
 #   end
   
 #   def find_or_create_by_id(psn_id)
-#     find_by_name(psn_id) || self.create(psn_id)
+#     find_by_id(psn_id) || self.create(psn_id)
 #   end
 # end
